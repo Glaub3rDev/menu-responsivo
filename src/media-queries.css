@@ -1,0 +1,111 @@
+@charset "UTF-8";
+
+:root {
+    --cor001: #0a0a0a;
+    --cor002: #2c2d2d;
+    --cor003: #f5332c;
+    --cor004: #ccc889;
+}
+
+/*Typical Device Breakpoints
+------------------------------
+Pequenas telas: 0px até 600px
+Celulares: 600px até 768px
+Tablet: 768px até 992px
+Desktop: 992px até 1200px
+Grandes telas: 1200px
+*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    main {
+        width: 700px;
+    }
+
+    img#phone{display: none; margin: auto;}
+    img#pc{display: none; margin: auto;}
+    img#print{display:none; margin: auto;}
+    img#tablet{display: block; margin: auto;}
+    img#tv{display: none; margin: auto;}
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+
+    main {
+        width: 750px;
+    }
+
+    span#mobile-menu  {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        background-color: var(--cor001);
+    }
+
+    header > h1 {
+        padding: 30px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    menu > ul > li > a {
+        border: none;
+        transition: all 0.5s ease;
+    }
+
+    menu > ul > li > a:hover {
+        border-radius: 10px;
+    }
+
+    img#phone{display: none; margin: auto;}
+    img#pc{display: block; margin: auto;}
+    img#print{display:none; margin: auto;}
+    img#tablet{display: none; margin: auto;}
+    img#tv{display: none; margin: auto;}
+}
+
+@media screen and (min-width:1200px) {
+    main {
+        width: 800px;
+    }
+
+    span#mobile-menu  {
+        display: none;
+    }
+
+    menu {
+        display: block;
+        background-color: var(--cor001);
+    }
+
+    header > h1 {
+        padding: 30px;
+    }
+
+    menu > ul > li {
+        display: inline-block;
+        padding-bottom: 5px;
+    }
+
+    menu > ul > li > a {
+        border: none;
+        transition: all 0.5s ease;
+    }
+
+    menu > ul > li > a:hover {
+        border-radius: 10px;
+    }
+
+    article > h2 {
+        padding: 20px;
+    }
+    img#phone{display: none; margin: auto;}
+    img#pc{display: none; margin: auto;}
+    img#print{display:none; margin: auto;}
+    img#tablet{display: none; margin: auto;}
+    img#tv{display: block; margin: auto;}
+}

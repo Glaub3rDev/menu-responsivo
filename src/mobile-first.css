@@ -1,0 +1,102 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor001: #0a0a0a;
+    --cor002: #2c2d2d;
+    --cor003: #f5332c;
+    --cor004: #9c1712c0;
+}
+
+img#phone{display: block; margin: auto;}
+img#pc{display: none; margin: auto;}
+img#print{display:none; margin: auto;}
+img#tablet{display: none; margin: auto;}
+img#tv{display: none; margin: auto;}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--cor001);
+}
+
+header > h1 {
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
+
+span#mobile-menu {
+    background-color: var(--cor001);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    transition: all 0.4s ease;
+}
+
+span#mobile-menu:hover{
+    cursor: pointer;
+    color: var(--cor003);
+}
+
+menu {
+    background-color: var(--cor002);
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-top: 1px solid white;
+    transition: all 0.4s ease;
+}
+
+menu > ul > li > a:hover {
+    background-color: var(--cor003);
+    
+}
+
+main {
+    width: 90vw;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+article > h1 {
+    padding-bottom: 20px;
+}
+
+article > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+article > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    line-height: 1.5;
+}
+
+.luke {
+    text-decoration: none;
+    color: white;
+    background-color: var(--cor003);
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.luke:hover {
+    background-color: white;
+    color: var(--cor003);
+}
