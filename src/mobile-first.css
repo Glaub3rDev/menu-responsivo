@@ -82,7 +82,7 @@ header > h1 {
     padding-bottom: 10px;
 }
 
-article > p {
+.section-flex> p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 10px;
