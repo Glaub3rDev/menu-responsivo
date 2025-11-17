@@ -34,6 +34,34 @@ Grandes telas: 1200px
         width: 750px;
     }
 
+    .section-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        min-height: 50vh;
+        gap: 40px;
+        padding: 40px;
+    }
+
+    .parent {
+        min-height: 50vh;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 8px;
+    }
+    
+    .div1 {
+        grid-column: span 3 / span 3;
+        grid-row: span 5 / span 5;
+    }
+
+    .div2 {
+        grid-column: span 3 / span 3;
+        grid-row: span 5 / span 5;
+        grid-column-start: 4;
+    }
+
     span#mobile-menu  {
         display: none;
     }
