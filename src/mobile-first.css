@@ -77,12 +77,27 @@ header > h1 {
 }
 
 .section-flex > h2 {
-    border-radius: 15px;
     text-align: center;
     padding-bottom: 10px;
 }
 
-.section-flex> p {
+.section-flex > p {
+    text-align: justify;
+    margin-bottom: 20px;
+    text-indent: 10px;
+    line-height: 1.5;
+}
+
+strong {
+    color: var(--cor003);
+}
+
+.div1 > h2 {
+    text-align: center;
+    padding: 10px;
+}
+
+.div1 > p {
     text-align: justify;
     margin-bottom: 20px;
     text-indent: 10px;

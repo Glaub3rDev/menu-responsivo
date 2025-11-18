@@ -43,6 +43,7 @@ Grandes telas: 1200px
         padding: 40px;
     }
 
+    /*Grid generator*/
     .parent {
         min-height: 50vh;
         display: grid;
@@ -61,6 +62,7 @@ Grandes telas: 1200px
         grid-row: span 5 / span 5;
         grid-column-start: 4;
     }
+    /*------------------------------------------*/
 
     span#mobile-menu  {
         display: none;
@@ -89,6 +91,14 @@ Grandes telas: 1200px
         border-radius: 10px;
     }
 
+    .section-flex > h2 {
+        font-size: 2.5em;
+    }
+
+    .section-flex > p {
+        font-size: 1em;
+    }
+
     img#phone{display: none; margin: auto;}
     img#pc{display: block; margin: auto;}
     img#print{display:none; margin: auto;}
@@ -97,6 +107,46 @@ Grandes telas: 1200px
 }
 
 @media screen and (min-width:1200px) {
+
+    .section-flex {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        min-height: 50vh;
+        gap: 40px;
+        padding: 40px;
+    }
+
+    /*Grid generator*/
+    .parent {
+        min-height: 50vh;
+        display: grid;
+        grid-template-columns: repeat(6, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        gap: 8px;
+    }
+    
+    .div1 {
+        grid-column: span 3 / span 3;
+        grid-row: span 5 / span 5;
+    }
+
+    .div1 > h2 {
+        font-size: 2.1em;
+        padding-bottom: 20px;    
+    }
+
+    .div1 > p {
+        font-size: 1.2em;
+    }
+
+    .div2 {
+        grid-column: span 3 / span 3;
+        grid-row: span 5 / span 5;
+        grid-column-start: 4;
+    }
+    /*------------------------------------------*/
+
     main {
         width: 800px;
     }
@@ -128,9 +178,18 @@ Grandes telas: 1200px
         border-radius: 10px;
     }
 
+    .section-flex > h2 {
+        font-size: 2.1em;
+    }
+
+    .section-flex > p {
+        font-size: 1.2em;
+    }
+
     article > h2 {
         padding: 20px;
     }
+    
     img#phone{display: none; margin: auto;}
     img#pc{display: none; margin: auto;}
     img#print{display:none; margin: auto;}
