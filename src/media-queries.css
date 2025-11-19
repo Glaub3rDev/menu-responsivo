@@ -21,6 +21,22 @@ Grandes telas: 1200px
         width: 700px;
     }
 
+    section > h2 {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    section > p {
+        text-align: justify;
+        margin-bottom: 20px;
+        text-indent: 10px;
+        line-height: 1.5;
+    }
+
+    section > img {
+        padding-bottom: 20px;
+    }
+
     img#phone{display: none; margin: auto;}
     img#pc{display: none; margin: auto;}
     img#print{display:none; margin: auto;}
@@ -70,7 +86,22 @@ Grandes telas: 1200px
         border-radius: 10px;
     }
 
+    section > h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 2.4em;
+    }
+
+    section > p {
+        text-align: justify;
+        margin-bottom: 20px;
+        text-indent: 10px;
+        line-height: 1.5;
+        font-size: 1em;
+    }
+
     .section-flex > h2 {
+        text-align: left;
         font-size: 2.5em;
     }
 
@@ -93,8 +124,27 @@ Grandes telas: 1200px
         align-items: center;
         min-height: 50vh;
         gap: 5em;
-        padding: 40px;
+        padding: 0px 0px 0px 0px;
     }
+
+    section > h2 {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 2.4em;
+    }
+
+    section > p {
+        text-align: justify;
+        margin-bottom: 20px;
+        text-indent: 10px;
+        line-height: 1.5;
+        font-size: 1em;
+    }
+
+    section > img {
+        padding-bottom: 10px;
+    }
+
 
     .section-flex > h2 {
         font-size: 2.1em;
@@ -102,7 +152,7 @@ Grandes telas: 1200px
     }
 
     .section-flex > p {
-        font-size: 1.2em;
+        font-size: 1em;
     }
 
     main {
