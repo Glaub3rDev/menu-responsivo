@@ -33,5 +33,3 @@ Além disso, busquei aplicar **boas práticas de estrutura, semântica e respons
 
 Acesse o projeto [aqui](https://glaub3rdev.github.io/menu-responsivo/)
 
----
-
